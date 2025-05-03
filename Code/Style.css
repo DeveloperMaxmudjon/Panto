@@ -115,7 +115,7 @@ main .search-form button img {
 
 .couse-nav {
     width: 100%;
-    height: 300px;
+    height: 360px;
 }
 
 .couse-wraper {
@@ -166,3 +166,456 @@ main .search-form button img {
     margin-top: 8px;
     height: 30px;
 }
+
+section {
+    width: 100%;
+    background-color: #F7F7F7;
+    height: 880px;
+}
+
+section h1 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    padding-top: 50px;
+    font-size: 42px;
+    color: #1E1E1E;
+    text-align: center;
+}
+
+section .button-sellgroup {
+    width: 290px;
+    margin: 0 auto;
+    height: 40px;
+    background-color: #EEEEEE;
+    display: flex;
+    border-radius: 50px;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-top: 70px;
+}
+
+section .button-sellgroup button {
+    border: none;
+    border-radius: 50px;
+}
+
+.button-sellgroup button a:not(.button-sellgroup button .active) {
+    text-decoration: none;
+    color: #1E1E1E;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+}
+
+.button-sellgroup button .active {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    color: #1E1E1E;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+section .products {
+    width: 85%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products .cheirs{
+    position: relative;
+    width: 250px;
+    height: 420px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.products .cheirs span {
+    width: 250px;
+    height: 235px;
+    background-color: #FAFAFA;
+    display: inline-block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+
+.products .cheirs span img {
+    position: absolute;
+    top: -40px;
+    left: 15px;
+}
+
+.products .cheirs .text-wrap {
+    width: 220px;
+    margin: 10px auto;
+}
+
+.products .cheirs .text-wrap .name-star p {
+    font-size: 16px;
+    color: #8D8D8D;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+.products .cheirs .text-wrap .name-star h2 {
+    font-size: 22px;
+    color: #0D1B39;
+    font-family: 'Gilroy-Bold', sans-serif;
+    padding: 3px 0;
+}
+
+.text-wrap .price-qty nav h3 {
+    font-size: 17px;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+.text-wrap .price-qty nav {
+    display: flex;
+    gap: 5px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.text-wrap .price-qty {
+    display: flex;
+    gap: 100px;
+}
+
+.text-wrap .price-qty button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 30px;
+    background-color: #0D1B39;
+}
+
+.text-wrap .price-qty button a {
+    font-size: 40px;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+}
+
+section .all-product {
+    display: flex;
+    width: 150px;
+    border: none;
+    background-color: transparent;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+section .all-product a {
+    font-size: 18px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    color: #E58411;
+    text-decoration: none;
+    gap: 10px;
+    display: flex;
+}
+
+article {
+    width: 100%;
+    height: 2350px;
+    background-color: #fff;
+}
+
+article .experience {
+    display: flex;
+    margin-top: 200px;
+}
+
+article .experience .style-text {
+    width: 550px;
+    height: 400px;
+    margin: 150px auto;
+}
+
+.experience .style-text h3 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    color: #E58411;
+}
+
+.experience .style-text h1 {
+    width: 400px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 42px;
+    color: #1E1E1E;
+    margin: 20px 0;
+}
+
+.experience .style-text p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 16px;
+    color: #1E1E1E;
+    margin-bottom: 25px;
+}
+
+.experience .style-text a  {
+    text-decoration: none;
+}
+
+.experience .style-text a button  {
+    display: flex;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+}
+
+.experience .style-text a button p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 14px;
+    color: #E58411;
+}
+
+article .quality {
+    display: flex;
+    margin-top: 100px;
+}
+
+article .quality .style-text {
+    width: 550px;
+    height: 400px;
+    margin: 150px auto;
+}
+
+.quality .style-text h3 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    color: #E58411;
+}
+
+.quality .style-text h1 {
+    width: 400px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 42px;
+    color: #1E1E1E;
+    margin: 20px 0;
+}
+
+.quality .style-text p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 16px;
+    color: #1E1E1E;
+    margin-bottom: 25px;
+}
+
+.quality .style-text a  {
+    text-decoration: none;
+}
+
+.quality .style-text a button  {
+    display: flex;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+}
+
+.quality .style-text a button p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 14px;
+    color: #E58411;
+}
+
+.Testimonials {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Testimonials h3 {
+    font-size: 18px;
+    font-family: 'Gilroy-Light', sans-serif;
+    color: #E58411;
+}
+
+.Testimonials h1 {
+    font-size: 52px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #1E1E1E;
+    margin-top: 30px;
+}
+
+.Testimonials .top-user {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.Testimonials .top-user .user-1,.user-2,.user-3 {
+    width: 390px;
+    height: 550px;
+}
+
+.Testimonials .top-user .user-1 {
+    background-image: url(../Images/Image/User-1bc.png);
+    position: relative;
+}
+
+.Testimonials .top-user .user-2 {
+    background-image: url(../Images/Image/user-2bc.png);
+    position: relative;
+}
+
+.Testimonials .top-user .user-3 {
+    background-image: url(../Images/Image/User-3bc.png);
+    position: relative;
+}
+
+.user-1 .user-info {
+    width: 330px;
+    height: 230px;
+    margin: 15px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-49%);
+}
+
+.user-2 .user-info {
+    width: 330px;
+    height: 230px;
+    margin: 15px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-48%);
+}
+
+.user-3 .user-info {
+    width: 330px;
+    height: 230px;
+    margin: 15px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-48%);
+}
+
+.user-info .user-logo {
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-top: -40px;
+    border-radius: 50px;
+    margin: -40px 120px -10px;
+}
+
+.user-2 .user-info .user-logo {
+    margin: -40px 125px -10px;
+}
+
+.user-3 .user-info .user-logo {
+    margin: -40px 125px -10px;
+}
+
+
+.user-info .user-logo img {
+    margin: 6px auto;
+}
+
+.user-info h2 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 22px;
+
+    color: #1E1E1E;
+}
+
+.user-info .active {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 14px;
+    color: #1E1E1E;
+    margin-top: 4px;
+}
+
+.user-info p:not(.user-info .active) {
+    width: 260px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    color: #1E1E1E;
+    margin: 15px auto;
+}
+
+.user-info img:not(.user-info .user-logo img) {
+    position: absolute;
+    bottom: 25px;
+    left: 120px;
+}
+
+footer {
+    width: 100%;
+    height: 450px;
+    background-color: #F7F7F7;
+}
+
+footer .all-info {
+    width: 80%;
+    height: 150px;
+    padding: 120px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .all-info .hero-info {
+    width: 300px;
+}
+
+.all-info .hero-info h1 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #1E1E1E;
+    font-size: 28px;
+}
+
+.all-info .hero-info p {
+    padding-top: 40px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    color: #1E1E1E;
+    font-size: 15px;
+}
+
+.all-info .service h3,
+.all-info .furniture-link h3,
+.all-info .follow-link h3 {
+    font-size: 18px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: #F6973F;
+}
+
+.all-info .service p,
+.all-info .furniture-link p,
+.all-info .follow-link p {
+    font-size: 15px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    color: #1e1e1e;
+    margin-top: 20px;
+}
+
+footer .adres {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+footer .adres span {
+    display: flex;
+    width: 290px;
+    gap: 40px;
+}
+
+footer .adres .active {
+    font-size: 16px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: #1E2833;
+}
+
+
